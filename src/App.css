@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -11,6 +10,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+input:invalid {
+  border-color: red;
 }
 
 .App-header {
